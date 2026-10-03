@@ -1,4 +1,4 @@
-# Cheats - Arwing
+# Foxhollow Cheats - Arwing
 
 A native mod that adds optional Arwing cheats to Star Fox Adventures running through Foxhollow.
 
