@@ -7,8 +7,10 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-/* Number-row keys, indexed by Cheat: 5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings. */
+/* Keys indexed by Cheat: 5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings.
+   Each cheat accepts its number-row key or the matching numpad key. */
 static const int kCheatKeys[CHEAT_COUNT] = {'5', '6', '7', '8'};
+static const int kCheatNumpadKeys[CHEAT_COUNT] = {VK_NUMPAD5, VK_NUMPAD6, VK_NUMPAD7, VK_NUMPAD8};
 
 static const FhModHost* H;
 static FhMod* M;
@@ -50,7 +52,7 @@ FH_MOD_EXPORT int fh_mod_initialize(FhMod* mod, const FhModHost* host) {
     modLog(FH_LOG_ERROR, "disabled: required host symbols or hooks are unavailable");
     return FH_MOD_ERROR;
   }
-  modLog(FH_LOG_INFO, "v1.0.0 loaded (5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings)");
+  modLog(FH_LOG_INFO, "v1.0.1 loaded (5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings)");
   return FH_MOD_OK;
 }
 
@@ -63,7 +65,7 @@ FH_MOD_EXPORT void fh_mod_update(FhMod* mod) {
   /* Key state is tracked while unfocused too, so a key already held when the
      game regains focus is not seen as a new press. */
   for (i = 0; i < CHEAT_COUNT; i++) {
-    int down = key_down(kCheatKeys[i]);
+    int down = key_down(kCheatKeys[i]) || key_down(kCheatNumpadKeys[i]);
 
     pressed[i] = focused && down && !sKeyDown[i];
     sKeyDown[i] = down;

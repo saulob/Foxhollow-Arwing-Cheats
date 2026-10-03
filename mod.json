@@ -1,9 +1,9 @@
 {
   "id": "com.saulob.cheats-arwing",
   "name": "Cheats - Arwing",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "saulob",
-  "description": "Optional Arwing cheats for Star Fox Adventures using keys 5-8: God Mode (5), Rapid Fire (6), Infinite Bombs (7) and Complete Rings (8)",
+  "description": "Arwing cheats for Star Fox Adventures using keys 5-8 on the number row or numpad: God Mode (5), Rapid Fire (6), Infinite Bombs (7) and Complete Rings (8)",
   "compatibility": {
     "abi": 2
   }

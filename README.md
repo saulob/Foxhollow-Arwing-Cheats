@@ -1,6 +1,6 @@
 # Foxhollow Cheats - Arwing
 
-A native mod that adds optional Arwing cheats to Star Fox Adventures running through Foxhollow.
+A native mod that adds Arwing cheats to Star Fox Adventures running through Foxhollow.
 
 ## Controls
 
@@ -11,7 +11,7 @@ A native mod that adds optional Arwing cheats to Star Fox Adventures running thr
 | 7 | Toggle Infinite Bombs |
 | 8 | Toggle Complete Rings |
 
-- Use the number-row keys. Press a key once to enable the cheat and press it again to disable it. Holding a key does not toggle it repeatedly.
+- Keys 5-8 work on both the number row and the numeric keypad (with Num Lock on). Press once to enable a cheat and press again to disable it. Holding either version of a key does not toggle repeatedly.
 - The hotkeys are only active while flying the Arwing, so they do not interfere with normal player gameplay.
 - Keys only work while the game window is focused.
 - All cheats start off and reset when you leave the current save (returning to the title screen, the save select or a soft reset). Leaving the Arwing, warps and loading screens keep them enabled.

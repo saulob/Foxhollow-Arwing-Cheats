@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(arwing_cheats VERSION 1.0.0 LANGUAGES C)
+project(arwing_cheats VERSION 1.0.1 LANGUAGES C)
 
 if(NOT WIN32 OR NOT CMAKE_SIZEOF_VOID_P EQUAL 8)
   message(FATAL_ERROR "Arwing Cheats currently supports Windows x64 only")
