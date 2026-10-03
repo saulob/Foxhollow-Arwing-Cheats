@@ -7,8 +7,8 @@
 #define WIN32_LEAN_AND_MEAN
 #include <windows.h>
 
-/* Number-row keys, indexed by Cheat: 1 God Mode, 2 Rapid Fire, 3 Infinite Bombs, 4 Complete Rings. */
-static const int kCheatKeys[CHEAT_COUNT] = {'1', '2', '3', '4'};
+/* Number-row keys, indexed by Cheat: 5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings. */
+static const int kCheatKeys[CHEAT_COUNT] = {'5', '6', '7', '8'};
 
 static const FhModHost* H;
 static FhMod* M;
@@ -50,7 +50,7 @@ FH_MOD_EXPORT int fh_mod_initialize(FhMod* mod, const FhModHost* host) {
     modLog(FH_LOG_ERROR, "disabled: required host symbols or hooks are unavailable");
     return FH_MOD_ERROR;
   }
-  modLog(FH_LOG_INFO, "v1.0.0 loaded (1 God Mode, 2 Rapid Fire, 3 Infinite Bombs, 4 Complete Rings)");
+  modLog(FH_LOG_INFO, "v1.0.0 loaded (5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings)");
   return FH_MOD_OK;
 }
 

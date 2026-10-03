@@ -64,8 +64,8 @@ void arwingCheatsUpdate(const int pressed[CHEAT_COUNT]) {
   int i;
 
   if (!update_session()) return;
-  /* The keys only act while flying the Arwing. On foot the same keys belong
-     to Player Cheats, so they are ignored here without touching any state. */
+  /* The keys only act while flying the Arwing. On foot they are ignored here
+     without touching any state. */
   if (game.getArwing() == NULL) return;
   for (i = 0; i < CHEAT_COUNT; i++) {
     if (pressed[i]) toggle((Cheat)i);

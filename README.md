@@ -6,13 +6,13 @@ A native mod that adds optional Arwing cheats to Star Fox Adventures running thr
 
 | Key | Action |
 | --- | --- |
-| 1 | Toggle Arwing God Mode |
-| 2 | Toggle Rapid Fire |
-| 3 | Toggle Infinite Bombs |
-| 4 | Toggle Complete Rings |
+| 5 | Toggle Arwing God Mode |
+| 6 | Toggle Rapid Fire |
+| 7 | Toggle Infinite Bombs |
+| 8 | Toggle Complete Rings |
 
 - Use the number-row keys. Press a key once to enable the cheat and press it again to disable it. Holding a key does not toggle it repeatedly.
-- The hotkeys are only active while flying the Arwing, so they do not interfere with normal player gameplay or the separate Player Cheats mod, which uses the same keys on foot.
+- The hotkeys are only active while flying the Arwing, so they do not interfere with normal player gameplay.
 - Keys only work while the game window is focused.
 - All cheats start off and reset when you leave the current save (returning to the title screen, the save select or a soft reset). Leaving the Arwing, warps and loading screens keep them enabled.
 - There is no on-screen display. Every change is written to the Foxhollow log, for example `[Arwing Cheats] God Mode enabled`.
@@ -24,9 +24,6 @@ A native mod that adds optional Arwing cheats to Star Fox Adventures running thr
 - **Infinite Bombs**: keeps the Arwing bomb supply at 3. The button press that launches a bomb never detonates it, and a new bomb is not set off by the previous bomb's explosion.
 - **Complete Rings**: keeps the Arwing ring count at 10.
 
-## Related cheat mod
-
-This mod can be installed alongside [Cheats - Player](https://github.com/saulob/Foxhollow-Player-Cheats). Both mods use keys 1-4, but their hotkeys do not overlap: Cheats - Player handles them during normal player gameplay, while Cheats - Arwing handles them only while flying the Arwing.
 
 ## Installation
 
