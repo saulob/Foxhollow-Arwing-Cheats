@@ -6,9 +6,10 @@
 
 #include "foxhollow_mod_api.h"
 
-/* Partial x64 layouts of the game records the hooks touch. The game headers'
-   STATIC_ASSERT offsets describe the 32-bit GameCube layout, so these offsets
-   come from the headers compiled for x64 and match what arwarwing_readControls,
+/* Partial native 64-bit layouts of the game records the hooks touch, the same
+   on every supported Foxhollow target. The game headers' STATIC_ASSERT offsets
+   describe the 32-bit GameCube layout, so these offsets come from the headers
+   compiled for the 64-bit Foxhollow build and match what arwarwing_readControls,
    arwarwing_getBombCount, arwarwing_getCollectedRingCount and arwarwingbo_update
    read and write in the Foxhollow build. */
 typedef struct GameObject GameObject;
