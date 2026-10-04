@@ -43,7 +43,7 @@ FH_MOD_EXPORT int fh_mod_initialize(FhMod* mod, const FhModHost* host) {
   for (i = 0; i < CHEAT_COUNT; i++) {
     sKeyDown[i] = platformCheatKeyDown(i);
   }
-  modLog(FH_LOG_INFO, "v1.1.0 loaded (5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings)");
+  modLog(FH_LOG_INFO, "v1.1.1 loaded (6 God Mode, 7 Rapid Fire, 8 Infinite Bombs, 9 Complete Rings)");
   return FH_MOD_OK;
 }
 

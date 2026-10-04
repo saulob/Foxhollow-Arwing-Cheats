@@ -6,7 +6,7 @@
 int platformInputInitialize(FhMod* mod, const FhModHost* host);
 void platformInputShutdown(void);
 int platformInputActive(void);
-/* cheat is a Cheat index: 5 God Mode, 6 Rapid Fire, 7 Infinite Bombs, 8 Complete Rings. */
+/* cheat is a Cheat index: 6 God Mode, 7 Rapid Fire, 8 Infinite Bombs, 9 Complete Rings. */
 int platformCheatKeyDown(int cheat);
 
 #endif

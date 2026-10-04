@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.25)
-project(arwing_cheats VERSION 1.1.0 LANGUAGES C)
+project(arwing_cheats VERSION 1.1.1 LANGUAGES C)
 
 include(CheckCSourceCompiles)
 

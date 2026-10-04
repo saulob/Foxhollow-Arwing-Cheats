@@ -6,12 +6,12 @@ A native mod that adds Arwing cheats to Star Fox Adventures running through Foxh
 
 | Key | Action |
 | --- | --- |
-| 5 | Toggle Arwing God Mode |
-| 6 | Toggle Rapid Fire |
-| 7 | Toggle Infinite Bombs |
-| 8 | Toggle Complete Rings |
+| 6 | Toggle Arwing God Mode |
+| 7 | Toggle Rapid Fire |
+| 8 | Toggle Infinite Bombs |
+| 9 | Toggle Complete Rings |
 
-- Keys 5-8 work on both the number row and the numeric keypad. On Windows, the numpad keys need Num Lock on. On Linux and macOS, the keys are recognized by their position on the keyboard, so numpad 5-8 work with Num Lock on or off.
+- Keys 6-9 work on both the number row and the numeric keypad. On Windows, the numpad keys need Num Lock on. On Linux and macOS, the keys are recognized by their position on the keyboard, so numpad 6-9 work with Num Lock on or off.
 - Press a key once to enable its cheat and press it again to disable it. Holding a key does not toggle repeatedly; release it and press it again to toggle again. The number-row key and the numpad key for the same number count as one: pressing one while the other is held does not toggle again.
 - The hotkeys are only active while flying the Arwing, so they do not interfere with normal player gameplay.
 - Keys only work while the Foxhollow window has keyboard focus. A key pressed while the window is in the background is ignored, not saved for later.
@@ -65,7 +65,7 @@ Restart the game after installing.
 
 Official Foxhollow builds are currently published for Windows x64, Linux x86_64 and macOS Apple Silicon. The Linux ARM64 and macOS Intel libraries are for Foxhollow builds you compile yourself. Windows on ARM is not supported.
 
-On Linux and macOS, keys 5-8 are read from the keyboard state of Foxhollow's own SDL3 runtime, so the mod needs no extra libraries and behaves the same under X11 and Wayland. If the Foxhollow log shows `[Arwing Cheats] disabled: ...`, the mod could not find the game functions or keyboard input it needs and left the game unchanged. If only some game functions are missing, the log names the affected cheats as unavailable and the others keep working.
+On Linux and macOS, keys 6-9 are read from the keyboard state of Foxhollow's own SDL3 runtime, so the mod needs no extra libraries and behaves the same under X11 and Wayland. If the Foxhollow log shows `[Arwing Cheats] disabled: ...`, the mod could not find the game functions or keyboard input it needs and left the game unchanged. If only some game functions are missing, the log names the affected cheats as unavailable and the others keep working.
 
 ## Repository
 
